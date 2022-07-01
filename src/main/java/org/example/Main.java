@@ -11,10 +11,12 @@ public class Main {
         Robot robotOne = new Robot("Megatron",axe);
         Robot robotTwo = new Robot("Optimus Prime",pistol);
         Robot robotThree = new Robot("Ultron",gloves);
+        Goran goran = new Goran("Goran", 50);
 
         robotOne.Attack();
         robotTwo.Attack();
         robotThree.Attack();
+        goran.Attack();
 
     }
 }
